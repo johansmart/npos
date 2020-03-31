@@ -1,0 +1,2 @@
+extract ke C:\xampp\php\ext.
+silahkan buka file php.ini yang ada pada folder C:\xampp\php\ dan tambahkan script berikut ini : extension=php_printer.dll

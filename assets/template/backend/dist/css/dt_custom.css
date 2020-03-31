@@ -1,0 +1,57 @@
+
+  mark {
+  padding: 0;
+  background: #ffff66 !important;
+}
+/*positioning search box datatable*/
+div.dataTables_wrapper  div.dataTables_filter {
+/*  width: 100%;*/
+  margin-top: -35px;
+}
+
+div.dt-buttons {
+    float: right;
+    /*margin-right:550px;*/
+    margin-top: -47px;
+    /*display: inline;*/
+}
+
+/*.dataTables_length {
+    margin-left: 40%;
+}*/
+
+#addButton {
+    float: left;
+    /*margin-right:550px;*/
+    margin-top: 0px;
+    /*display: inline;*/
+}
+div.dataTables_processing { z-index: 1; }
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #e6e6fa;
+}
+
+/*.buttons-copy {
+  background-color: #00c5dc;
+  color: white;
+}
+.buttons-csv {
+  background-color: #5768dd;
+  color: white;
+}
+.buttons-excel {
+  background-color: #34bfa3;
+  color: white;
+}
+.buttons-pdf {
+  background-color: #f4516c;
+  color: white;
+}*/
+/*decrease row height*/
+/*table.dataTable tbody th, table.dataTable tbody td {
+    padding: 2px 10px; 
+}*/
+.select2-selection {
+  min-height: 30px;
+  text-align: left;
+}
